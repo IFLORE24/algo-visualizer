@@ -1,6 +1,7 @@
 .array-container {
     position: absolute;
-    left: 500px;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .array-bar {
@@ -8,4 +9,12 @@
     background-color: brown;
     display: inline-block;
     margin: 0 1px;
+}
+
+.button-container {
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
